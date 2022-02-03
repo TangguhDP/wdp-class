@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-node-html",
+  "version": "1.0.0",
+  "description": "This is my first Tailwind with node.js",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Tangguh D Pramono",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
